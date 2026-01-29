@@ -262,4 +262,3 @@ def test_transformers_parametrized_smoke(model_name):
     )
 
     assert out.strip() in {"Yes", "No"}
-
